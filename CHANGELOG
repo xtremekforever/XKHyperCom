@@ -1,0 +1,26 @@
+XKHyperCom Changelog
+====================
+
+Notes
+-----
+This changelog is a file to contain the summary of changes made to the
+XKHyperCom project source code. XKHyperCom is a branch of the XKManager
+project but is intended to be independant of any actual device or firmware,
+thereby allowing it to be used for other serial port applications.
+
+
+Changes
+-------
+
+Date        Version  Change Description
+----------  -------  ---------------------------------------------------------------------
+2011-01-13   v0.0.1  Added code to display the serial port status.
+2011-01-13   v0.0.1  Added a new dialog to specify a port to open as well as the settings.
+2011-01-11   v0.0.1  Added the About and About Qt dialogs to the proyecto...
+2011-01-11   v0.0.1  Added code into the SerialThread class and also succeeded in making
+                     it run in a separate thread so the main interface will not freeze.
+2011-01-11   v0.0.1  Added the MainWindow calss and the SerialThread class.
+2011-01-11   v0.0.1  Defined the version major, minor, and revision in the defines.h.in
+                     file and added the file to the CMake build in order to allow for
+                     changing the build number when required.
+2011-01-11   v0.0.1  Created the XKHyperCom project version 0.0.1.
